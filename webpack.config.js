@@ -35,5 +35,5 @@ module.exports = {
         publicPath:"http://localhost:3000/dist",
         hot: true
     },
-    plugins: [new webpack.HotModuleReplacementPlugin(), new EslintWebpackPlugin()]
+    plugins: [new webpack.HotModuleReplacementPlugin()]
 }

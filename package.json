@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx webpack serve",
+    "build" : "npx eslint src/ && npx webpack --mode production",
+    "lint-fix" : "npx eslint src/ --fix",
+    "lint" : "npx eslint src/"
   },
   "author": "",
   "license": "ISC",
